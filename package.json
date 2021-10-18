@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "React Sample Applications for Okta",
   "scripts": {
+    "node":"15.11.0",
     "banners": "node tools/maintain-banners.js {okta-hosted-login,custom-login,tools,scripts}/{*js,src/**/*{js,jsx,css}}",
     "lint:okta-hosted-login": "npm run lint --prefix okta-hosted-login/",
     "lint:custom-login": "npm run lint --prefix custom-login/",
